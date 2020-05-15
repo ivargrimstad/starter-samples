@@ -14,8 +14,9 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 /**
- *
- * @author 
+ * Simple Hello World endpoint.
+ * 
+ * @author Ivar Grimstad (ivar.grimstad@eclipse-foundation.org)
  */
 @Path("hello")
 public class Hello {

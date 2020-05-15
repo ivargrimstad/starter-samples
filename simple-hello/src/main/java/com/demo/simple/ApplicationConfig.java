@@ -14,7 +14,9 @@ import javax.ws.rs.core.Application;
 
 
 /**
- * Configures JAX-RS for the application.
+ * Configures the Jakarta REST application.
+ * 
+ * @author Ivar Grimstad (ivar.grimstad@eclipse-foundation.org)
  */
 @ApplicationPath("")
 public class ApplicationConfig extends Application {
