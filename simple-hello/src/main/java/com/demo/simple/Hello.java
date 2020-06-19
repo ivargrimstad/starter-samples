@@ -23,6 +23,6 @@ public class Hello {
     
     @GET
     public Response hello(){
-        return Response.ok("Hello, World!").build();
+        return Response.ok("Hello, Jakarta EE 8!").build();
     }
 }
