@@ -20,7 +20,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.finalName>simple-hello</project.build.finalName>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <version.jakartaee>8.0.0</version.jakartaee>
     </properties>
 
     <build>
@@ -31,7 +30,7 @@
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
-            <version>${version.jakartaee}</version>
+            <version>8.0.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
