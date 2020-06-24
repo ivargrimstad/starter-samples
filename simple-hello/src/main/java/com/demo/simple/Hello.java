@@ -9,9 +9,9 @@
  */
 package com.demo.simple;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.core.Response;
 
 /**
  * Simple Hello World endpoint.
@@ -23,6 +23,6 @@ public class Hello {
     
     @GET
     public Response hello(){
-        return Response.ok("Hello, Jakarta EE 8!").build();
+        return Response.ok("Hello, Jakarta EE 9!").build();
     }
 }
